@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Запрос</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    width: 481pt;
+    margin: auto;
+    padding-top: 31pt;
+}
+   .center {
+    width: 200px; /* Ширина элемента в пикселах */
+    padding: 10px; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    background: #fc0; /* Цвет фона */
+   }
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: white;
+    border-radius: 17px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 17px;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+    font-size: 14pt;
+    background-color: #6979F8;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 17px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Задать вопрос</h1>
+    <p>Заполните данные</p>
+    <hr>
+<form action="https://digital-spectr.com/ac/academy.php" method="post">
+    <input type="text" placeholder="Фамилия Имя Отчество*" name="name" required>
+
+    <input type="text" placeholder="Телефон*" name="name" value="+7"required>
+
+    <input type="text" placeholder="Emale" name="name">
+    <hr>
+    
+    <button type="submit" class="registerbtn">Отправить запрос</button>
+  </div>
+  
+</form>
+
+</body>
+</html>
